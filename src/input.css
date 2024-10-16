@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.serifado {
+    font-family: "Roboto Serif", serif;
+}
