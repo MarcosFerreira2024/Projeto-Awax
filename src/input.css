@@ -6,3 +6,10 @@
 .serifado {
     font-family: "Roboto Serif", serif;
 }
+
+
+.sombra{
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+}
+
+
