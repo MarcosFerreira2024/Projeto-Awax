@@ -21,3 +21,9 @@
 .sombra-xy {
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   }
+
+.detalhe li:not(:last-child){
+    width: 100%;
+    border-right: 1px solid #CFCFCF;
+    
+}
