@@ -554,6 +554,18 @@ video {
   display: none;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .absolute {
   position: absolute;
 }
@@ -623,6 +635,10 @@ video {
   margin-top: 30px;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -659,8 +675,16 @@ video {
   height: calc(100vh - 100px);
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .max-h-\[373px\] {
   max-height: 373px;
+}
+
+.max-h-\[300px\] {
+  max-height: 300px;
 }
 
 .min-h-\[120px\] {
@@ -881,9 +905,25 @@ video {
   border-top-width: 1px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-\[\#aeaeae\] {
   --tw-border-opacity: 1;
   border-color: rgb(174 174 174 / var(--tw-border-opacity));
+}
+
+.border-\[\#\] {
+  border-color: #;
 }
 
 .border-b-\[transparent\] {
@@ -930,8 +970,21 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-yellow-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
+}
+
 .bg-background {
   background-image: url('/img/complementos/bg.jpg');
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .bg-cover {
@@ -940,6 +993,10 @@ video {
 
 .bg-\[50\%_100\%\] {
   background-position: 50% 100%;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .object-cover {
@@ -993,6 +1050,11 @@ video {
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-2 {
@@ -1120,12 +1182,21 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 .opacity-0 {
   opacity: 0;
 }
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .transition-opacity {
@@ -1213,6 +1284,42 @@ video {
 .pointers.ativo{
   background-color: rgba(185, 139, 89, 0.6);
   cursor:default;
+}
+
+.placeholder\:justify-center::-moz-placeholder {
+  justify-content: center;
+}
+
+.placeholder\:justify-center::placeholder {
+  justify-content: center;
+}
+
+.placeholder\:text-center::-moz-placeholder {
+  text-align: center;
+}
+
+.placeholder\:text-center::placeholder {
+  text-align: center;
+}
+
+.placeholder\:text-white::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-white::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#aeaeae\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(174 174 174 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#aeaeae\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(174 174 174 / var(--tw-text-opacity));
 }
 
 .hover\:border-b-\[\#B98B59\]:hover {
