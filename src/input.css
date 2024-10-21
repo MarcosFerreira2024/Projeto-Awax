@@ -30,7 +30,7 @@
 
 .banner {
     background-color: #aeaeae;
-    background-image: url(/img/complementos/bg.jpg);
+    background-image: url(/src/img/complementos/bg.jpg);
     background-position: bottom;
     background-size: cover;
 }
