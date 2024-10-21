@@ -1009,12 +1009,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\.\.\/img\/complementos\/mapa\.jpg\)\] {
-  background-image: url(../img/complementos/mapa.jpg);
+.bg-\[url\(img\/complementos\/mapa\.jpg\)\] {
+  background-image: url(img/complementos/mapa.jpg);
 }
 
 .bg-background {
-  background-image: url(../img/complementos/bg-2.jpg);
+  background-image: url(img/complementos/bg-2.jpg);
 }
 
 .bg-cover {
@@ -1268,7 +1268,7 @@ video {
 
 .banner {
   background-color: #aeaeae;
-  background-image: url(../img/complementos/bg.jpg);
+  background-image: url(img/complementos/bg.jpg);
   background-position: bottom;
   background-size: cover;
 }
