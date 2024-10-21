@@ -1014,7 +1014,7 @@ video {
 }
 
 .bg-background {
-  background-image: url[(./src/img/complementos/bg-2.jpg)];
+  background-image: url(/src/img/complementos/bg-2.jpg);
 }
 
 .bg-cover {
