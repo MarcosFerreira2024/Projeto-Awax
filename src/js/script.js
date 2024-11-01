@@ -1,6 +1,7 @@
 function sliderPrincipal(){
     let botoes = document.querySelectorAll(".pointers");
     let slider = document.querySelector(".sliders");
+    slider.style.width=`${100*botoes.length}vw`
     botoes.forEach((botao, index) => {
         botao.setAttribute('data-index', index);
         botao.addEventListener('click', trocar);
